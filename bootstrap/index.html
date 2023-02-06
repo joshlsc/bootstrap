@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joshua R. Lasac">
+    <title>Bootstrap 5</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS Local File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- Bootstrap 5 Containers -->
+    <h3 class="py-3">Bootstrap 5 Containers</h3>
+
+    <!-- Container -->
+    <div class="container p-5 my-2 bg-primary text-white">
+        <h1>Bootstrap 5 Container</h1>
+        <p>This is a Container.</p> 
+    </div>
+
+    <!-- Fluid Container -->
+    <div class="container-fluid p-5 bg-primary text-white">
+        <h1>Bootstrap 5 Fluid Container</h1>
+        <p>This is a Fluid Container.</p>
+    </div>
+
+    <!-- Bootstrap 5 Grid System ( For best viewing, try resizing your screen ) -->
+    <h3 class="py-3">Bootstrap 5 Grids</h3>
+    <div class="container">
+
+        <!-- 12 Equal Columns (Unresponsive) -->
+        <div class="row text-center">
+            <div class="col-1 border">col 1</div>
+            <div class="col-1 border">col 2</div>
+            <div class="col-1 border">col 3</div>
+            <div class="col-1 border">col 4</div>
+            <div class="col-1 border">col 5</div>
+            <div class="col-1 border">col 6</div>
+            <div class="col-1 border">col 7</div>
+            <div class="col-1 border">col 8</div>
+            <div class="col-1 border">col 9</div>
+            <div class="col-1 border">col 10</div>
+            <div class="col-1 border">col 11</div>
+            <div class="col-1 border">col 12</div>
+        </div>
+
+        <!-- 12 Equal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-1 border">col 1</div>
+            <div class="col-md-1 border">col 2</div>
+            <div class="col-md-1 border">col 3</div>
+            <div class="col-md-1 border">col 4</div>
+            <div class="col-md-1 border">col 5</div>
+            <div class="col-md-1 border">col 6</div>
+            <div class="col-md-1 border">col 7</div>
+            <div class="col-md-1 border">col 8</div>
+            <div class="col-md-1 border">col 9</div>
+            <div class="col-md-1 border">col 10</div>
+            <div class="col-md-1 border">col 11</div>
+            <div class="col-md-1 border">col 12</div>
+        </div>
+
+        <!-- 6 Equal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-2 border">col 1</div>
+            <div class="col-md-2 border">col 2</div>
+            <div class="col-md-2 border">col 3</div>
+            <div class="col-md-2 border">col 4</div>
+            <div class="col-md-2 border">col 5</div>
+            <div class="col-md-2 border">col 6</div>
+        </div>
+
+        <!-- 4 Equal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-3 border">col 1</div>
+            <div class="col-md-3 border">col 2</div>
+            <div class="col-md-3 border">col 3</div>
+            <div class="col-md-3 border">col 4</div>
+        </div>
+
+        <!-- 3 Equal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-4 border">col 1</div>
+            <div class="col-md-4 border">col 2</div>
+            <div class="col-md-4 border">col 3</div>
+        </div>
+
+        <!-- 2 Equal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-6 border">col 1</div>
+            <div class="col-md-6 border">col 2</div>
+        </div>
+
+        <!-- 3 Unequal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-2 border">col 1</div>
+            <div class="col-md-8 border">col 2</div>
+            <div class="col-md-2 border">col 3</div>
+        </div>
+
+        <!-- 2 Unequal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-4 border">col 1</div>
+            <div class="col-md-8 border">col 2</div>
+        </div>
+
+        <!-- 2 Unequal Columns (Responsive using md) -->
+        <div class="row text-center">
+            <div class="col-md-8 border">col 1</div>
+            <div class="col-md-4 border">col 2</div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap 5 Text/Typography -->
+    <h3 class="py-3">Bootstrap 5 Text/Typography</h3>
+    <div class="container">
+
+        <!-- Normal Headings -->
+        <h1>h1 Bootstrap heading</h1>
+        <h2>h2 Bootstrap heading</h2>
+        <h3>h3 Bootstrap heading</h3>
+        <h4>h4 Bootstrap heading</h4>
+        <h5>h5 Bootstrap heading</h5>
+        <h6>h6 Bootstrap heading</h6>
+
+        <div class="py-2"></div>
+
+        <!-- Normal Headings -->
+        <p class="h1">h1 class Bootstrap heading</p>
+        <p class="h2">h2 class Bootstrap heading</p>
+        <p class="h3">h3 class Bootstrap heading</p>
+        <p class="h4">h4 class Bootstrap heading</p>
+        <p class="h5">h5 class Bootstrap heading</p>
+        <p class="h6">h6 class Bootstrap heading</p>
+
+        <div class="py-2"></div>
+
+        <!-- Display Headings -->
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+
+        <!-- Blockquote -->
+        <blockquote class="blockquote">
+            <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+            <footer class="blockquote-footer">From WWF's website</footer>
+        </blockquote>
+
+        <!-- Description List -->
+        <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+        </dl>  
+
+        <!-- Code -->
+        <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+
+        <!-- Lead -->
+        <p class="lead">This paragraph stands out.</p>
+
+        <!-- Text Positions -->
+        <p class="text-start">Left-aligned text.</p>
+        <p class="text-end">Right-aligned text.</p>      
+        <p class="text-center">Center-aligned text.</p>
+        <p class="text-nowrap">No wrap text. Try resizing your screen - this text will not be responsive.</p>
+
+    </div>
+
+    <!-- Bootstrap 5 Colors -->
+    <h3 class="py-3">Bootstrap 5 Colors</h3>
+    <div class="container">
+        <!-- Text Colors -->
+        <p class="text-muted">This text is muted.</p>
+        <p class="text-primary">This text is important.</p>
+        <p class="text-success">This text indicates success.</p>
+        <p class="text-info">This text represents some information.</p>
+        <p class="text-warning">This text represents a warning.</p>
+        <p class="text-danger">This text represents danger.</p>
+        <p class="text-secondary">Secondary text.</p>
+        <p class="text-dark">This text is dark grey.</p>
+        <p class="text-body">Default body color (often black).</p>
+        <p class="text-light">This text is light grey (on white background).</p>
+        <p class="text-white">This text is white (on white background).</p>
+
+        <!-- Background Colors -->
+        <div class="bg-primary p-2"></div>
+        <div class="bg-success p-2"></div>
+        <div class="bg-info p-2"></div>
+        <div class="bg-warning p-2"></div>
+        <div class="bg-danger p-2"></div>
+        <div class="bg-secondary p-2"></div>
+        <div class="bg-dark p-2"></div>
+        <div class="bg-light p-2"></div>
+
+        <!-- Background Color with Contrasting Text Color -->
+        <p class="text-bg-primary">This text is important.</p>
+        <p class="text-bg-success">This text indicates success.</p>
+        <p class="text-bg-info">This text represents some information.</p>
+        <p class="text-bg-warning">This text represents a warning.</p>
+        <p class="text-bg-danger">This text represents danger.</p>
+        <p class="text-bg-secondary">Secondary background color.</p>
+        <p class="text-bg-dark">Dark grey background color.</p>
+        <p class="text-bg-light">Light grey background color.</p>
+
+    </div>
+
+    <!-- Bootstrap 5 Tables -->
+    <h3 class="py-3">Bootstrap 5 Tables</h3>
+    <div class="container">
+
+        <!-- Basic Table -->
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Striped Table -->
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Bordered Table -->
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Bordered Table -->
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Hover Table -->
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Colored Table -->
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Colored and Striped Table -->
+        <table class="table table-dark table-striped">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Hover Colored Table -->
+        <table class="table table-dark table-hover">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Table Head Colors -->
+        <table class="table table-bordered">
+            <thead class="table-success">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Small Table -->
+        <table class="table table-sm table-bordered">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johnny</td>
+                <td>Sins</td>
+                <td>holy@johnny.com</td>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Khalifa</td>
+                <td>mama@mia.com</td>
+            </tr>
+            <tr>
+                <td>Lexi</td>
+                <td>Lore</td>
+                <td>lexi@baby.com</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Responsive Table -->
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Sex</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Anna</td>
+                    <td>Pitt</td>
+                    <td>35</td>
+                    <td>New York</td>
+                    <td>USA</td>
+                    <td>Female</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap 5 Images -->
+    <h3 class="py-3">Bootstrap 5 Images</h3>
+    <div class="container">
+        <!-- Rounded Corners -->
+        <img src="img/sample-img.png" class="rounded" alt="sample image" width="200">
+
+        <!-- Circle -->
+        <img src="img/sample-img.png" class="rounded-circle" alt="sample image" width="200"> 
+
+        <!-- Thumbnail -->
+        <img src="img/sample-img.png" class="img-thumbnail" alt="sample image" width="200"> 
+
+        <!-- Fluid (100% width / Auto height) -->
+        <img src="img/sample-img.png" class="img-fluid" alt="sample image"> 
+    </div>
+
+    <!-- Bootstrap 5 Jumbotron -->
+    <h3 class="py-3">Bootstrap 5 Jumbotron</h3>
+    <div class="container">
+        <div class="p-5 bg-primary text-white rounded">
+            <h1>Jumbotron Example</h1> 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
+            </p> 
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Alerts -->
+    <h3 class="py-3">Bootstrap 5 Alerts</h3>
+    <div class="container">
+        <div class="alert alert-success">
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary">
+            <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary">
+            <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark">
+            <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light">
+            <strong>Light!</strong> Light grey alert.
+        </div>
+
+        <!-- Dismissable Alert -->
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+
+        <!-- Animated Alert -->
+        <div class="alert alert-danger alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Buttons -->
+    <h3 class="py-3">Bootstrap 5 Buttons</h3>
+    <div class="container">
+
+        <!-- Buttons -->
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <div class="pt-2"></div>
+
+        <!-- Custom Buttons -->
+        <a href="#" class="btn btn-success">Link Button</a>
+        <button type="button" class="btn btn-success">Button</button>
+        <input type="button" class="btn btn-success" value="Input Button">
+        <input type="submit" class="btn btn-success" value="Submit Button">
+        <input type="reset" class="btn btn-success" value="Reset Button">
+
+        <div class="pt-2"></div>
+
+        <!-- Outlined Buttons -->
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-light text-dark">Light</button>
+
+        <div class="pt-2"></div>
+
+        <!-- Button Size -->
+        <button type="button" class="btn btn-primary btn-lg">Large</button>
+        <button type="button" class="btn btn-primary">Default</button>
+        <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+    </div>
+
+    <!-- Bootstrap 5 Cards -->
+    <h3 class="py-3">Bootstrap 5 Cards</h3>
+    <div class="container">
+
+        <!-- Basic Card -->
+        <div class="card mb-4">
+            <div class="card-body">Basic card</div>
+        </div>
+
+        <!-- Card with Header -->
+        <div class="card mb-4">
+            <div class="card-header">Header</div>
+            <div class="card-body">This is a sample content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis!</div>
+        </div>
+
+        <!-- Card with Header and Footer -->
+        <div class="card mb-4">
+            <div class="card-header">Header</div>
+            <div class="card-body">This is a sample content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis!</div>
+            <div class="card-footer">Footer</div>
+        </div>
+
+        <!-- Cards with links inside Columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <p>This is a sample content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis!</p>
+                        <a href="#" class="card-link btn btn-sm btn-primary">External Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <p>This is a sample content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis!</p>
+                        <a href="#" class="card-link btn btn-sm btn-primary">External Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <p>This is a sample content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis!</p>
+                        <a href="#" class="card-link btn btn-sm btn-primary">External Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards with links and images inside Columns -->
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/sample-img.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Handy Johnny</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-sm btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/sample-img.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Handy Johnny</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-sm btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/sample-img.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Handy Johnny</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-sm btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/sample-img.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Handy Johnny</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-sm btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
